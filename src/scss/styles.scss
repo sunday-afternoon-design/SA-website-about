@@ -1,0 +1,22 @@
+@import "bootstrap/scss/bootstrap";
+@font-face {
+    font-family: 'dapifer';
+    src: url('../../public/Dapifer-Book.otf') format('opentype');
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    // user-select: none;
+    fill: white;
+    font-size: 2.35vw;
+    font-family: 'dapifer';
+}
+
+#about {
+    padding: 0;
+    margin: 14vw 19vw 0vw 19vw;
+    line-height: 1.3;
+    color: black;
+    transition: color 0.5s;
+}
