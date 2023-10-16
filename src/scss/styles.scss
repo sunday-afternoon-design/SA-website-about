@@ -54,3 +54,25 @@ body {
     transform: translateY(-20px);
     fill: aliceblue;
 }
+
+.rotateCss {
+    display: inline-block;
+    transition: transform 1s;
+}
+
+.rotateCss:hover {
+    transform: rotateY(360deg);
+}
+
+.kerning {
+    letter-spacing: normal;
+    transition: letter-spacing 0.5s;
+    /* adjust duration as needed */
+}
+
+
+/* Hover state */
+
+.kerning:hover {
+    letter-spacing: 2px;
+}
